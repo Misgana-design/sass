@@ -42,6 +42,8 @@ these endpoints, the *compiler*, is responsible for compiling Sass stylesheets
 to CSS. The other, the *host*, is responsible for telling the compiler what to
 compile and for providing implementations of custom importers and functions.
 
+This what I added
+
 Messages are sent between the host and the compiler in the form of [protocol
 buffers], using a custom RPC system [defined below]. The messages and
 services that comprise this protocol are defined in [the `.proto` file]
